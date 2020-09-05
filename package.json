@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/sigdeletras/js_testing/issues"
   },
-  "homepage": "https://github.com/sigdeletras/js_testing#readme"
+  "homepage": "https://github.com/sigdeletras/js_testing#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.13",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
+    "typescript": "^4.0.2"
+  }
 }
