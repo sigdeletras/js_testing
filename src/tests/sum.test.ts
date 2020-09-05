@@ -1,19 +1,31 @@
-import {sum} from '../core/sum'
+import { sum } from '../core/sum'
 
-test('should sum two numbers', () => {
-    //Arrange
+describe('Sum function', () => {
+    test('should sum two numbers', () => {
+        //Arrange
 
-    const a = 1
-    const b = 2
-    const expected = 3
-    
-    // Act
+        const a = 1
+        const b = 2
+        const expected = 3
 
-    const result = sum(a,b)
+        // Act
 
-    // Assert 
+        const result = sum(a, b)
 
-    expect(result).toBe(expected)
+        // Assert 
 
+        expect(result).toBe(expected)
+
+    })
+})
+
+
+
+test('equality of objets', () => {
+    const data = { one: 1 };
+    data['two'] = 2
+    const expected = { one: 1, two: 2 }
+
+    expect(data).toEqual(expected)
 })
 
