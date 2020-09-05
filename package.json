@@ -4,7 +4,8 @@
   "description": "Ejercicios y código del libro Clean JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:wath":"jest --watchAll"
   },
   "repository": {
     "type": "git",
